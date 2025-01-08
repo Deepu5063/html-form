@@ -20,3 +20,14 @@ td , th{
     border: 1px solid rgb(190, 17, 17);
     padding: 5px 8px;
 }
+/* nested menu styles */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(145, 74, 74);
+}
+
+nav li:hover .dropdown{
+    display: block;
+}
+
